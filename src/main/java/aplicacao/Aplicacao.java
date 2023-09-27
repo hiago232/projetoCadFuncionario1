@@ -75,7 +75,7 @@ public class Aplicacao {
     
     public static int menu (){
         Scanner sc = new Scanner(System.in);
-        DateTimeFormatter frm = DateTimeFormatter.ofPattern("dd/mm/yyyy HH:mm:ss");
+        DateTimeFormatter frm = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm:ss");
         LocalDateTime data = LocalDateTime.now();
         int op = 0;
         String menu="                                 "
