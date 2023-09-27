@@ -15,7 +15,7 @@ public class Funcionario {
     private int id;
     private String nome;
     private double salario;
-    private DateTimeFormatter frm = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm");
+    private DateTimeFormatter frm = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm:ss");
     private LocalDateTime data ;
 
     
